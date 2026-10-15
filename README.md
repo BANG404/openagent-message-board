@@ -1,5 +1,9 @@
 # Message Board
 
+The official repository is `BANG404/openagent-message-board`. Its GitHub name
+follows the official plugin `openagent-` prefix; the installed package ID,
+commands, MCP tools and retained plugin data continue to use `message-board`.
+
 This OpenAgent plugin provides the Codex agent message-board model over a
 portable stdio MCP server. Install the `message-board` directory from
 OpenAgent's plugin settings. The package stores its board in the loader-owned
