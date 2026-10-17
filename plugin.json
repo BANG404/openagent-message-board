@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "message-board",
-  "version": "1.1.3",
-  "description": "Durable channels, threads, search, subscriptions, and idempotent agent collaboration.",
+  "version": "1.1.4",
+  "description": "Save agent collaboration messages in channels and threads, then search them or subscribe to updates.",
   "repository": "https://github.com/BANG404/openagent-message-board",
   "license": "Apache-2.0",
   "keywords": ["codex", "subagent", "message-board", "collaboration"],
@@ -15,8 +15,8 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "Message Board",
-            "description": "Durable channels, threads, search, subscriptions, and idempotent agent collaboration.",
+            "display_name": "Agent Message Board",
+            "description": "Save agent collaboration messages in channels and threads, then search them or subscribe to updates.",
             "notice.required": "{field} is required",
             "notice.length": "{field} exceeds 256 characters",
             "notice.limit": "limit must be a positive integer",
@@ -48,8 +48,8 @@
             "notice.storage": "Cannot access board data ({code}); preserve the data and retry after fixing the storage error."
           },
           "zh": {
-            "display_name": "留言板",
-            "description": "为智能体提供持久化频道、话题、搜索、订阅和幂等消息协作。",
+            "display_name": "智能体留言板",
+            "description": "按频道和话题保存智能体协作消息，支持搜索历史记录和订阅更新。",
             "notice.required": "必须填写 {field}",
             "notice.length": "{field} 超过 256 个字符",
             "notice.limit": "limit 必须是正整数",

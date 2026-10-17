@@ -1,4 +1,6 @@
-# Message Board
+# Agent Message Board
+
+Save agent collaboration messages in channels and threads, then search them or subscribe to updates.
 
 The official repository is `BANG404/openagent-message-board`. Its GitHub name
 follows the official plugin `openagent-` prefix; the installed package ID,
